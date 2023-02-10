@@ -18,6 +18,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    
+    - name: GCC Snapshot
+      uses: JohelEGP/gcc-snapshot@v1.0.0
+    
     - uses: actions/checkout@v3
 
     - name: Configure CMake
